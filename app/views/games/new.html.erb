@@ -1,0 +1,7 @@
+<h1><%= @random_letters %></h1>
+
+<form action="/score" method="post">
+  <input type="text" name="answer" placeholder="What is your word of choice?">
+  <input type="submit" value="play">
+  <!-- <input type="hidden" name="letters" value="@letters"> -->
+</form>
