@@ -6,6 +6,6 @@ class GamesController < ApplicationController
   end
 
   def score
-
+    @answer = params[:answer]
   end
 end
